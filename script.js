@@ -19,6 +19,10 @@ container.addEventListener("click", (event) => {
       active = null;
     } else {
       answer.style.display = "block";
+      answer.style.fontSize = "12px";
+      answer.style.marginBottom = "16px";
+      answer.style.lineHeight = "1.5";
+      answer.style.color = "#787887";
       question.style.fontWeight = "bold";
       arrow.style.transform = "rotate(180deg)";
       active = questionDiv;
